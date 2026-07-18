@@ -10,7 +10,7 @@ public class userinput {
         String food = sc.nextLine();
 
         System.out.print("Enter your age: ");
-        int age = sc.nextLine();
+        int age = sc.nextInt();
 
         System.out.println("Hello " + name + " ! You are " + age + " years old and you love " + food + ".");
 

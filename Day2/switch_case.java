@@ -16,7 +16,7 @@ public class switch_case {
                 System.out.println("Wednesday");
                 break;
             default:
-            System.out.println();
+            System.out.println("FUNDAY");
         }
     }
 }

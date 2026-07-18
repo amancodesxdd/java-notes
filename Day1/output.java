@@ -1,6 +1,6 @@
 // Printing Output in Java
 
-public class main{
+public class output{
     public static void main(String[] args) {
         System.out.println("Hello, Rose!");
     }

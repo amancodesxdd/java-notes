@@ -34,7 +34,17 @@ public class arrays {
             {3,6,8}
         };
         
-        // Accesseing different elements
+        // Accessing different elements
         System.out.println("Matrix[1][1]: "+ matrix[1][1]);
+
+        // Printing all elements
+        for(int i = 0; i < 3; i++){
+            for (int j=0; j < 3; j++){
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+
+
     }
 }

@@ -40,5 +40,18 @@ class Student1 {
         }
 
         sc.close();
+
+        double highest = students[0].marks;
+        String topper = students[0].name;
+        for(int i=0;i<students.length;i++){
+            if(students[i].marks>highest){
+                highest = students[i].marks;
+                topper = students[i].name;
+            }
+        
+        }
+        System.out.println("Highest Marks is "+ highest+ "scored by "+ topper);
+        
     }
+    
 }

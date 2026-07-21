@@ -53,5 +53,4 @@ class Student1 {
         System.out.println("Highest Marks is "+ highest+ "scored by "+ topper);
         
     }
-    
 }

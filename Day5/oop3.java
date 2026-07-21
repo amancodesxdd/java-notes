@@ -61,7 +61,7 @@ class hello{
 
 
 
-public class main{
+public class oop3{
     public static void main(String[] args) {
         static1 s1 = new static1("Rose");
         static1 s2 = new static1("Pose");

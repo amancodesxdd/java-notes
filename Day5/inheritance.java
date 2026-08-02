@@ -12,7 +12,7 @@ class Vehicle{
 }
 
 class Car extends Vehicle{
-
+    
 }
 
 // class Person{

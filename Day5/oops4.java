@@ -27,7 +27,7 @@ class dog extends Animal{
     }
         @Override
         void makesound(){
-            System.out.println("Woof Woof!");
+            System.out.println("Bhauuu BHauuuuu!");
         }
 
         void fetch(){
@@ -57,7 +57,7 @@ class cat extends Animal{
 
 public class oops4 {
     public static void main(String[] args) {
-        dog d1= new dog("Zoro",4,"Desi");
+        dog d1= new dog("Zoro",4,"labrador");
         cat c1 = new cat("Mo",4,true);
 
         System.out.println("DOG");
@@ -73,7 +73,7 @@ public class oops4 {
          System.out.println("CAT");
         System.out.println("Name: " + c1.getname());
         System.out.println("age: " + c1.getage());
-        System.err.println("Breed: "+ c1.isIndoor);
+        System.err.println("IsIndoor: "+ c1.isIndoor);
 
         c1.makesound();
         c1.purr();

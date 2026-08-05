@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 import javax.sound.sampled.*;
 
-public class CompleteAudioPlayer {
+public class AudioPlayer {
     public static void main(String[] args) {
         // Get file from user or use default
         String filePath = "audiofile1.wav";  // Change this to your file

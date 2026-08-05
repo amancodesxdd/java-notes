@@ -1,3 +1,4 @@
+package Day6;
 import java.io.*;
 
 public class inpout {

@@ -1,3 +1,4 @@
+package Day6;
 import java.util.*;
 interface payment{
     void pay(double amount);
@@ -11,6 +12,7 @@ public class anonymousclass {
 
         System.out.print("Enter payment amount: ");
         double amount = sc.nextDouble();
+        sc.close();
 
         payment p = new payment() {
             @Override

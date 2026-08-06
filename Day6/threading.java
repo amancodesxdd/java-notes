@@ -8,10 +8,10 @@ public static void main(String[] args) {
     // t3.start();
     // thread4 t4 = new thread4();
     // t4.start();
-    // System.out.println(Thread.currentThread().getName());
+    System.out.println(Thread.currentThread().getName());
 
-    // Thread.currentThread().setName("Main Worker");
-    // System.out.println(Thread.currentThread().getName());
+    Thread.currentThread().setName("Main Worker");
+    System.out.println(Thread.currentThread().getName());
 
 }
 }
